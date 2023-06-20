@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miscelánea Chava</title>
+    <link rel="web icon" type="png" href="../img/MC.png" class="icon">
+    <link rel="stylesheet" href="../css/store.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/MC.png" alt="Logo del Proyecto">
+        </div>
+        <a href="../index.html">
+            <h1>Miscelánea Chava</h1>
+        </a>
+    </header>
+
+    <div class="container-title">perfumería</div>
+
+    <main>
+        <div class="container-img">
+            <img src="../img/Perfumería/PerfHM.jpg" alt="Perfume Hombre Mujer">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$51,22</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="Sexo">Fragancia de Hombre o de Mujer?</label>
+                    <select name="Sexo" id="Sexo">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="dama">Dama</option>
+                        <option value="caballero">Caballero</option>
+                        <option value="ambos">Ambos</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity">
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al carrito
+                </button>
+            </div>
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque modi quod nostrum consectetur,
+                        odio iste beatae quas quisquam excepturi nesciunt, provident dolorem saepe quos amet sunt
+                        laboriosam veritatis illo cum.</p>
+                </div>
+            </div>
+            <div class="container-additional-info">
+                <div class="title-additional-info">
+                    <h4>Información Adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-info hidden">
+                    <p>-----------------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------------</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="container-related-products">
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/Perfumería/PerfH2.jpg" alt="Producto 1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Perfume Masculino <br> Yves Saint Laurent</h3>
+                        <p class="category">
+                            Perfume, Scents, Perfumery
+                        </p>
+                    </div>
+                    <div class="price">$55.22</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/Perfumería/PerfH3.jpeg" alt="Producto 2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Perfume Masculino <br> Sauvage Dior</h3>
+                        <p class="category">
+                            Perfume, Scents, Perfumery
+                        </p>
+                    </div>
+                    <div class="price">$78.61</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/Perfumería/PerfM1.jpg" alt="Producto 3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Perfumes Femeninos <br> Gucci Flora <br> Gucci Bloom</h3>
+                        <p class="category">
+                            Perfume, Scents, Perfumery
+                        </p>
+                    </div>
+                    <div class="price">$159.42</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/Perfumería/PerfM2.jpg" alt="Producto 4">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Perfume Femenino <br> Puff de Rosas</h3>
+                        <p class="category">
+                            Perfume, Scents, Perfumery
+                        </p>
+                    </div>
+                    <div class="price">$75.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/Perfumería/PerfM3.jpg" alt="Producto 5">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Perfume Femenino <br> Twilly d' Hermès</h3>
+                        <p class="category">
+                            Perfume, Scents, Perfumery
+                        </p>
+                    </div>
+                    <div class="price">$86.97</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            
+        </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0a2443a23d.js" crossorigin="anonymous"></script>
+    <script src="../js/store.js"></script>
+</body>
+
+</html>

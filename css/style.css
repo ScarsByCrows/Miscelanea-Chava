@@ -39,13 +39,6 @@ html {
     image-rendering: optimizeQuality;
 }
 
-.menu-icon {
-    width: 30px;
-    cursor: pointer;
-    margin-left: 40px;
-    image-rendering: optimizeQuality;
-}
-
 nav {
     flex: 1;
     text-align: right;
